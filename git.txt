@@ -1,0 +1,3 @@
+关联远程分支
+
+git remote add origin git@github.com:wangshiming88/python.git
