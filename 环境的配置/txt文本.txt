@@ -1,0 +1,16 @@
+
+ubuntu18.04 自带python3 也够用了 
+安装pycharm后 自动选择python安装目录截个图记住怎么修改环境
+https://blog.csdn.net/weixin_42066185/article/details/81190939
+
+错误1、在ubuntu18.04 环境 安装pycharm，当创建项目的时候报错如下：
+
+pycharm ModuleNotFoundError: No module named 'distutils.core'
+
+ubuntu18.04 默认没有安装 pip ，需要安装 python-pip，即可解决
+
+sudo apt-get install python-pip
+
+https://blog.csdn.net/u014615615/article/details/83063670
+
+
